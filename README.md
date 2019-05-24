@@ -50,7 +50,7 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 
 I hope to implement more than two gestures in the future. There will be further improvements in the code itself too.
 
-## CNN Implementation
+# CNN Implementation
 
 As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the required files are present in the folder `CNN Model`.
 
