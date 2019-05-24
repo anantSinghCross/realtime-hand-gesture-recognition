@@ -1,6 +1,6 @@
 # Hand Gesture Recognition
 
-Goal is to recognize hand gestures. I've trained the model on my own dataset using *Convolutional Neural Networks*. I've included my the dataset in the repository itself. In it's present state the model is trained to recognize just two gestures but can easily be trained for many hand gestures.
+Goal is to recognize hand gestures. I've trained the model on my own dataset using *Perceptron*. I've included my the dataset in the repository itself. In it's present state the model is trained to recognize just two gestures but can easily be trained for many hand gestures.
 I'll also upload the code that I'm using for capturing the hand an processing it for training the model.
 
 Model gives a high testing accuracy of about **99%** using just two *Dense* layers. But if you want to train more hand gestures then you'll probably need more a complex network.
@@ -12,8 +12,8 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 
 * `captureHand.py` - This program can capture new hand gestures and write them in the specified directory
 * `recognizer.py` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
-* `trainer.py` - This program uses the given dataset to train the CNN model
-* `modelWeights.h5` - Weights for the CNN model
+* `trainer.py` - This program uses the given dataset to train the Perceptron model
+* `modelWeights.h5` - Weights for the Perceptron model
 * `trainedModel.json` - JSON format of the model
 
 ## Sample of images in the Dataset
