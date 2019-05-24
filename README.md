@@ -15,6 +15,7 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 * `trainer.py` - This program uses the given dataset to train the Perceptron model
 * `modelWeights.h5` - Weights for the Perceptron model
 * `trainedModel.json` - JSON format of the model
+* `CNN Model` - A directory that contains CNN model implementation for the same recognition purpose (with 4 gestures)
 
 ## Sample of images in the Dataset
 
@@ -48,3 +49,18 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 ## Future
 
 I hope to implement more than two gestures in the future. There will be further improvements in the code itself too.
+
+## CNN Implementation
+
+As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the required files are present in the folder `CNN Model`.
+
+### Sample of Images in the New Dataset
+
+![gesture0.jpg](CNN Model/gesture0.jpg)
+![gesture1.jpg](CNN Model/gesture1.jpg)
+![gesture2.jpg](CNN Model/gesture2.jpg)
+![gesture5.jpg](CNN Model/gesture5.jpg)
+
+## Improvements and Differences
+
+I've used both the *Preceptron* as well as the *CNN* Model for recognition of 4 hand gestures. And I can easily say CNN works better for extracting features of an image. There's and improvement of Error %age from **32%** to **5%**.
