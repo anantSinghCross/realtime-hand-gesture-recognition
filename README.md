@@ -56,9 +56,9 @@ As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the req
 
 ### Sample of Images in the New Dataset
 
-![gesture0.jpg](master/CNN Model/gesture0.jpg)
+![gesture0.jpg](master\CNN Model\gesture0.jpg)
 
-![gesture1.jpg](CNN Model/gesture1.jpg)
+![gesture1.jpg](CNN Model\gesture1.jpg)
 
 ![gesture2.jpg](CNN Model/gesture2.jpg)
 
