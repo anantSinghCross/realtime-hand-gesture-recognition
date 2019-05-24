@@ -21,11 +21,11 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 
 * First Hand Gesture
 
-![firstHandGesture.jpg](firstHandGesture.jpg)
+![firstHandGesture.jpg](firstHandGesture.JPG)
 
 * Second Hand Gesture
 
-![secondHandGesture.jpg](secondHandGesture.jpg)
+![secondHandGesture.jpg](secondHandGesture.JPG)
 
 ## Required External libraries
 
