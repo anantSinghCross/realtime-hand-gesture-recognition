@@ -64,6 +64,16 @@ As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the req
 
 ![gesture5.jpg](CNN%20Model/gesture5.jpg)
 
+## Outputs Showing Error %ages
+
+* CNN Training Output
+
+![CNNoutput.jpg](CNN%20Model/outputCNN.jpg)
+
+* CNN Training Output
+
+![PERCEPTRONoutput.jpg](CNN%20Model/outputPERCEPTRON.jpg)
+
 ## Improvements and Differences
 
 I've used both the *Preceptron* as well as the *CNN* Model for recognition of 4 hand gestures. And I can easily say CNN works better for extracting features of an image. There's and improvement of Error %age from **32%** to **5%**.
