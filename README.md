@@ -42,7 +42,7 @@ Images in the dataset are of dimension *200 by 200*. But for performance reasons
 
 ![output1.jpg](output1.jpg)
 
-* For the first gesture
+* For the second gesture
 
 ![output2.jpg](output2.jpg)
 
