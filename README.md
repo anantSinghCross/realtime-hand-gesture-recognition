@@ -1,6 +1,6 @@
 # Hand Gesture Recognition
 
-Goal is to recognize hand gestures. I've trained the model on my own dataset using *Perceptron*. I've included my the dataset in the repository itself. In it's present state the model is trained to recognize just two gestures but can easily be trained for many hand gestures.
+Goal is to recognize hand gestures. I've trained the model on my own dataset using *Perceptron*. I've included my the dataset in the repository itself. In it's present state the model is trained to recognize just two gestures (please see the CNN implementation section in this readme, I trained it for 4 gestures afterwards) but can easily be trained for many hand gestures.
 I'll also upload the code that I'm using for capturing the hand an processing it for training the model.
 
 Model gives a high testing accuracy of about **99%** using just two *Dense* layers. But if you want to train more hand gestures then you'll probably need more a complex network.
@@ -76,4 +76,4 @@ As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the req
 
 ## Improvements and Differences
 
-I've used both the *Preceptron* as well as the *CNN* Model for recognition of 4 hand gestures. And I can easily say CNN works better for extracting features of an image. There's and improvement of Error %age from **32%** to **5%**.
+I've used both the *Perceptron* as well as the *CNN* Model for recognition of 4 hand gestures. And I can easily say CNN works better for extracting features of an image. There's and improvement of Error %age from **32%** to **5%**. This happens because Perceptron model is a simple 1 dimensional set of neurons, therefore it reduces a lot of features in the images whereas the CNN is specially designed to work with images and works on 2 dimensional set of neurons.
