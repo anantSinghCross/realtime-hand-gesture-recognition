@@ -70,7 +70,7 @@ As of May 1, 2019 I have used CNN for the recognition of 4 gestures. All the req
 
 ![CNNoutput.jpg](CNN%20Model/outputCNN.JPG)
 
-* CNN Training Output
+* Perceptron Training Output
 
 ![PERCEPTRONoutput.jpg](CNN%20Model/outputPERCEPTRON.JPG)
 
